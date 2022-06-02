@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 60%;
+  background: #E5E5E5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.main-header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color :#761797;
+}
+a:hover{
+  text-decoration: underline;
+
+}
+.main-header-left span {
+  font-weight: 600;
+  margin-left: 10px;
+}
+.main .content {
+  width: 100%;
+  min-height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute; 
+  top: 50%; 
+  transform: translate(0%, -50%); 
+}
+.main-container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.main-container-header h2 {
+  font-size: 36px;
+}
+
+.main-container-header h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+
+.main-container .line {
+  margin: 25px 0;
+  background: #bbbbbb;
+  width: 100%;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .line span {
+  font-size: 13px;
+  background: #E5E5E5;
+  padding: 0 10px;
+}
+
+.main-container-form {
+  width: 100%;
+}
+
+.main-container-form div {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main-container-form div input {
+  width: 100%;
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(187, 187, 187, 0.831372549);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 14px;
+  color: #000000;
+}
+
+input:active {
+border-color: #761797;
+color:red;
+}
+
+.main-container-form div input[type=password] {
+  padding-right: 40px;
+}
+
+.main-container-form select {
+    width: 100%;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(187, 187, 187, 0.831372549);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 14px;
+    color: #6B6B6B;
+  }
+ 
+
+.main-container-form .other {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-container-form .other2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.main-container-form .other2 span {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.main-container-form .other2 .purple {
+  margin-left: 10px;  
+  color: #761797;
+}
+
+.main-container-form .btn1 {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #761797;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  background-color: white;
+
+  color: #761797;
+}
+
+.btn1:hover{
+  background-color: #761797;
+  color: #FFFFFF;
+
+}
+.main-container-form .btn2 {
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: #761797;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  .btn2:hover{
+    border: 1px solid #761797;
+    color: #761797;
+    background-color: white;
+
+
+  
+  }
+@media screen and (min-width: 800px) {
+
+.aside {
+  width: 50%;
+  height: 100vh;
+  background: url('../data/g-shame/logimg.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.aside2 {
+    width: 50%;
+    height: 100vh;
+    background: url('../data/g-shame/signimg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+.aside3 {
+    width: 50%;
+    height: 100vh;
+    background: url('../data/g-shame/forgotimg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
