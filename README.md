@@ -1,13 +1,10 @@
 # G-SHAME
-Réseau social fait par des étudiants pour les étudiants.
-
-# G-SHAME
 Réseaux social d'étudiants.
 
 Pour suivre l'avancée de ce projet je vous invite à visiter le future réseau social via le lien suivant : https://g-shame.go.yj.fr/<br>
 
 Explication du projet :<br>
-Dans le cadre de notre formation Back-end au sein d'HETIC, supervisé par M. BERTHIER Renaud, il nous a été demandé, par groupe de 6 à 8 étudiants de réaliser un réseau social 'entre étudiant' en utilisant exclusivement du PHP et SQL pour le back et le HTML CSS et js pour le front.
+Dans le cadre de notre formation Back-end au sein d'HETIC, supervisé par M. BERTHIER Renaud, il nous est demandé, par groupe de 6 à 8 étudiants de réaliser un réseau social 'entre étudiant' en utilisant exclusivement du PHP et SQL pour le back et le HTML CSS et js pour le front.
 
 Notre rendu : Le réseau social G-SHAME :<br>
 <img src="https://g-shame.go.yj.fr/data/g-shame/logo.png">
@@ -38,11 +35,11 @@ Le mot de passe peut etre modifier en cas d'oubli via un lien visible sur la pag
 File d'actualité / Accueil :<br>
 <img src="https://g-shame.go.yj.fr/data/autre/factu.png">
 Page principale, divisé en quatre parties :<br>
-    -Le menu de gauche, ce dernier permet de naviger parmi les différentes fonctionnalités dont : <br>
+    -Le menu de gauche, ce dernier permet de naviger parmis les différentes fonctionnalitées parmis : <br>
             La page d'accueil
             La page de groupe
             La page de 'pages publiques'
-            La page de profil
+            La page de profile
             La deconnexion 
     <br>
     -La zone de création de poste <br>
@@ -55,7 +52,7 @@ Page principale, divisé en quatre parties :<br>
             si le logo commentaire est actionner le post concerné est isolé affichant la date de publication et les commentaire de celui-ci sont afficher ainsi qu'une zone d'ajout de commentaire afin d'interagir avec le post, il est aussi possible liker les commentaire.
     <br>
     <img src="https://g-shame.go.yj.fr/data/autre/msg.png">
-    -La barre de messagerie instantané, elle affiche les noms et pseudo de tous les étudiants possédant un compte publique et permet à l'utilisateur de discuter avec un des utilisateur disponible sur la liste simplement en cliquant sur sont nom.
+    -La barre de messagerie instantané, elle affiche les noms et preudo de tous les étudiants possédant un compte public et permet à l'utilisateur de discuter avec un des utilisateur disponible sur la liste simplement en cliquant sur sont nom.
 <br>
 Page de profil :<br>
 <img src="https://g-shame.go.yj.fr/data/autre/profilperso.png">
@@ -68,7 +65,7 @@ on accede a son profil personnel et cliquant sur "profil" dans le menu, si et se
 
 Pages publiques :<br>
 <img src="https://g-shame.go.yj.fr/data/autre/pages.png">
-le concept de pages publique permet un un utilisateur de faire valoir un etablissement ou une marque en créant une page représentant cette entité. Pour créer une page il suffit de cliquer sur PAGES dans le menu de gauche, une liste de vos pages déja créées apparait et un bouton créer une nouvel page est disponnible, pour crées une page il suffit de renseigné le titre, numéro, categorie, description at optionnelemnt deux autre administrateur si besoin.<br>
+le concept de pages publique permet un un utilisateur de faire valoir un etablissement ou une marque en créant une page représentant cette entitée, pour crée une page il suffit de cliquer sur PAGES dans le menu de gauche, une liste de vos pages déja crées apparait et un bouton créer une nouvel page est disponnible, pour crées une page il suffit de renseigné le titre, numéro, categorie, description at optionnelemnt deux autre administrateur si besoin.<br>
 on a egalement accès au profil de la pages qui est similaire au profil utilisateur, les trois administrateur on accès a la page de modification et a la zone de publication, mais seul l'administrateur principal(celui qui à crée la page) est en mesure d'ajouter/supprimer les autre administrateurs et de supprimer la page ainsi que tout ses postes. 
 <br>
 sur le file d'actualité/page d'accueil, les postes sont afficher sous le nom de l'administrateur avec une mention "a publié sur la page toto" (en  cliquant sur toto on accède à la page)
@@ -87,14 +84,14 @@ Prochaines améliorations :<br>
 -rendre le site responsive<br>
 
 <br><br>
-Répartition des taches (chacun s'est chargé de la partie sur laquelle il est plus à l'aise): <br><br>
+Répartition des taches (chaqu'un c'est chargé de la partie sur laquelle il est plus à l'aise): <br><br>
 <a href="https://www.linkedin.com/in/emir-hakiri/">EMIR HAKIRI</a> : Une grande partie du back(Autentification, Inscription, envoi de mail, gestion des sessions, upload des fichiers, gestion des pages et profil, gestion des postes et interaction, gestion de la base de donnée, ...)
 <br>
-<a href="https://www.linkedin.com/in/gajan-baskaran-/">GAJAN BASKARAN </a> : Une grande partie du front(page de connexion, page d'inscription, feed, creation pages, barre de messagerie)
+<a href="https://www.linkedin.com/in/gajan-baskaran-/">GAJAN BASKARAN </a> : Une grande partie du front(page de connection, page d'inscription, feed, creation pages, barre de messagerie)
 <br>
-<a href="https://www.linkedin.com/in/sizan-mohammed-abu-taleb-334a39201/">SIZAN MUHAMMED ABU TALEB</a> : Une grande partie du front(feed, focus des postes, commentaires, profil, modifification du profil, menu de gauche)
+<a href="https://www.linkedin.com/in/sizan-mohammed-abu-taleb-334a39201/">SIZAN MUHAMMED ABU TALEB</a> : Une grande partie du front(feed, focus ds postes, commentaires, profil, modif du profil, menu de gauche)
 <br>
-<a href="https://www.linkedin.com/in/diouf-maguette-2735ba204/">MAGUETTE DIOUF</a> : Une importante partie du back dont la messagerie instantannée permettant d'échanger des messages privées entre utilisateurs.
+<a href="https://www.linkedin.com/in/diouf-maguette-2735ba204/">MAGUETTE DIOUF</a> : messagerie instantannée.
 <br>
 <a href="https://www.linkedin.com/in/acc%C3%A8neroy/">ACCENE ROY</a> : partie groupe.
 <br>
@@ -117,7 +114,6 @@ Pour finir je m'excuse pour les eventuelles fautes d'orthographe :)
 
  
  
-
 
 
 
